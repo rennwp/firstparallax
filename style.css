@@ -1,0 +1,109 @@
+/* Memanngil FONT */
+@font-face {
+  font-family: "myFont";
+  src: url("aAksentuasi.ttf");
+}
+/* Akhir Memanggil FONT */
+
+h1 {
+  font-family: "myFont";
+}
+
+.jumbotron {
+  padding: 1em;
+  background-image: url(img/gambar1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+
+.jumbotron1 {
+  padding: 1em;
+  background-image: url(img/gambar1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  color: white;
+}
+
+.jumbotron2 {
+  padding: 1em;
+  background-image: url(img/gambar2.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px;
+  color: white;
+}
+
+.jumbotron3 {
+  padding: 1em;
+  background-image: url(img/gambar3.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+
+.jumbotron span,
+.jumbotron3 span {
+  padding: 18px;
+  letter-spacing: 8px;
+  font-size: 10px;
+}
+
+.kotak {
+  margin-top: 200px;
+}
+
+.about {
+  padding: 2em;
+}
+
+.lorem {
+  padding: 2em;
+}
+
+.profile {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.profile img {
+  margin: auto;
+  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.profile img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.kotak1 img {
+  display: block;
+  margin: auto;
+}
+
+.col-lg-3 {
+  margin-bottom: 50px;
+}
+
+/* // Large devices (desktops, 900px and up) */
+@media (min-width: 900px) {
+  .jumbotron span,
+  .jumbotron3 span {
+    font-size: 28px;
+    padding: 2em;
+  }
+
+  .kotak {
+    margin-top: 300px;
+  }
+
+  svg {
+    display: none;
+  }
+}
